@@ -19,7 +19,7 @@ end
 
 def take_a_number(queue,customerName)
   queue.push(customerName)
-  puts "Welcome, #{array.last}. You are number #{array.size} in line."
+  puts "Welcome, #{queue.last}. You are number #{queue.size} in line."
 end
 
 def now_serving(queue)
