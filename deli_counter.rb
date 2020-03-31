@@ -2,7 +2,8 @@
 # For Online Software Engineering PT - First Mile
 
 def line(queue)
-  if (queue.empty?) puts "The line is currently empty."
+  if (queue.empty?)
+    puts "The line is currently empty."
   else
     numberInLine = 1
     statement="The line is currently: "
