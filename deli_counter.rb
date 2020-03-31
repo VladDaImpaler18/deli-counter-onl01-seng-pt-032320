@@ -10,6 +10,7 @@ def line(queue)
     queue.each{ |name| 
       statement << "#{numberInLine}. #{name} " unless name==queue.last
       statement << "#{numberInLine}. #{name}" if name==queue.last
+      numberInLine+=1
               }
     puts statement
   end
