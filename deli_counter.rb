@@ -6,4 +6,6 @@ def line(queue)
   queue.empty? ? puts "The line is currently empty.": queue.each{ |name| puts "Welcome, #{name}. You are number #{numberInLine} in line." numberInLine+=1 }
 end
 
-def 
+def take_a_number(queue,customerName)
+  
+end
