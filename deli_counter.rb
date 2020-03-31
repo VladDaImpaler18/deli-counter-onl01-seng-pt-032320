@@ -22,6 +22,6 @@ def take_a_number(queue,customerName)
 end
 
 def now_serving(queue)
-  (puts "There is nobody waiting to be served!"; break) if queue.empty?
+  (puts "There is nobody waiting to be served!" && break) if queue.empty?
   puts "Currently serving #{queue.shift}."
 end
