@@ -4,7 +4,7 @@
 def line(queue)
   numberInLine = 1
   statement="The line is currently: "
-  queue.empty? ? puts "The line is currently empty.": queue.each{ |name| 
+  queue.empty? ? puts ("The line is currently empty."): queue.each{ |name| 
     statement << "#{numberInLine}. #{name} " unless name==queue.last
     statement << "#{numberInLine}. #{name}" if name==queue.last
   }
