@@ -3,9 +3,10 @@
 
 def line(queue)
   numberInLine = 1 
-  queue.empty? ? puts "The line is currently empty.": queue.each{ |name| puts "Welcome, #{name}. You are number #{numberInLine} in line." numberInLine+=1 }
+  queue.empty? ? puts "The line is currently empty.": queue.each{ |name| puts  numberInLine+=1 }
 end
 
 def take_a_number(queue,customerName)
-  
+  queue.push(customerName)
+  puts "Welcome, #{name}. You are number  in line."
 end
