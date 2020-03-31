@@ -17,5 +17,5 @@ end
 
 def now_serving(queue)
   puts "There is nobody waiting to be served!" break if queue.empty?==true
-  puts "Currently serving #{queue.unshift}."
+  puts "Currently serving #{queue.shift}."
 end
